@@ -1,0 +1,88 @@
+/* width & height - example 1 */
+/* @media (max-width:800px) {
+    .left-block,
+    .right-block {
+        width: 150px;
+        height: 150px;
+        background-color: gold;
+    }
+}
+
+@media (max-width: 480px) {
+    .right-block {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .right-block {
+        display: block;
+    }
+} */
+
+
+
+/* flex-direction example2 */
+/* @media (max-width: 950px) {
+    .wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .center-block {
+        margin-top:50px;
+        margin-bottom: 50px;
+    }
+} */
+
+/* flex-wrap example3 */
+@media (max-width:900px) {
+    .wraper {
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    .wraper {
+        justify-content: center;      
+    }
+    .center-block {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+/* images example */
+/* @media (max-width: 1024px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+
+@media (max-width: 1024px) {
+    .image-block {
+        width: 47%;
+    }
+}
+@media (max-width: 480px) {
+    .image-block {
+        width: 100%;
+    }
+    .image-block:nth-child(4) {
+        display: none;
+    }
+}
+
+
+
+/* burger icons */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
